@@ -16,6 +16,7 @@ I lead the backend of a business-critical B2B sales platform used every day by a
 | Project | What it shows |
 |---|---|
 | [oracle-sql-tuning-case-study](https://github.com/juancfajardo/oracle-sql-tuning-case-study) | Three common Oracle performance problems (function on an indexed column, implicit conversion, row-by-row PL/SQL), reproduced on 2 million rows of synthetic data and fixed: 12x, 254x and 940x faster with identical results, measured on Oracle Database Free in GitHub Actions |
+| [quarkus-ibm-mq-soap-integration](https://github.com/juancfajardo/quarkus-ibm-mq-soap-integration) | Orders delivered from a Quarkus REST API to a legacy SOAP ERP through IBM MQ, with transacted consumers, retries, idempotency and a dead-letter queue. Against an ERP failing 20% of calls: 22% of orders failed with a direct call, 0 with the queue, and no duplicates |
 
 All public projects use synthetic data. No code or data from any employer or client is published here.
 
