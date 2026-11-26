@@ -15,7 +15,7 @@ I lead the backend of a business-critical B2B sales platform used every day by a
 
 | Project | What it shows |
 |---|---|
-| [oracle-sql-tuning-case-study](https://github.com/juancfajardo/oracle-sql-tuning-case-study) | Three common Oracle performance problems (function on an indexed column, implicit conversion, row-by-row PL/SQL), reproduced on synthetic data, fixed and benchmarked with a Python harness |
+| [oracle-sql-tuning-case-study](https://github.com/juancfajardo/oracle-sql-tuning-case-study) | Three common Oracle performance problems (function on an indexed column, implicit conversion, row-by-row PL/SQL), reproduced on 2 million rows of synthetic data and fixed: 12x, 254x and 940x faster with identical results, measured on Oracle Database Free in GitHub Actions |
 
 All public projects use synthetic data. No code or data from any employer or client is published here.
 
